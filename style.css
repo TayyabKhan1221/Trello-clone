@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    min-height: auto;
+    background-image: url(./img/blue-background-7470781_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .main {
+    width: 100%;
+    background-color: rgb(71, 130, 224);
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20rem;
+  }
+  
+  main {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 20px;
+  }
+  
+  .column {
+    background-color: white;
+    border-radius: 30px;
+    min-height: 300px;
+    min-width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+  
+  .column > h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .column > p {
+    padding: 8px;
+    background-color: rgb(145, 172, 214);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+  }
+  
+  .column > form > input {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  #addCard {
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-family: sans-serif;
+    border: none;
+  }
+  
